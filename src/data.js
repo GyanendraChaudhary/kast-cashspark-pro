@@ -1,9 +1,11 @@
+const BASE_URL = "/kast-cashspark-pro/";
+
 export const ASSETS = {
-  logo: "/assets/logo-light-bg-dark-rect.png",
-  logoAlt: "/assets/logo-dark-bg-transparent.png",
-  card: "/assets/kast-card-pin.jpg",
-  eventSign: "/assets/kast-dubai-event-led-sign.jpg",
-  globeVideo: "/assets/KAST_GlobeCard.mp4",
+  logo: `${BASE_URL}assets/logo-light-bg-dark-rect.png`,
+  logoAlt: `${BASE_URL}assets/logo-dark-bg-transparent.png`,
+  card: `${BASE_URL}assets/kast-card-pin.jpg`,
+  eventSign: `${BASE_URL}assets/kast-dubai-event-led-sign.jpg`,
+  globeVideo: `${BASE_URL}assets/KAST_GlobeCard.mp4`,
 };
 
 export const stats = [
